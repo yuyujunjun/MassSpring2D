@@ -245,12 +245,13 @@ while True:
                 
     if not paused[None]:
         for step in range(10):
-            implicit()
-            for i in range(20):
-                Solve()
-            ImplicitUpdate()
+            # Implicit
+            # implicit()
+            # for i in range(20):
+            #     Solve()
+            # ImplicitUpdate()
             # RungeKutta
-            #Runge_Kutta()
+            Runge_Kutta()
             # Verlet
             # Verlet()
             # explicit
