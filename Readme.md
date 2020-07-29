@@ -4,7 +4,7 @@ Simple mass-spring system built by Taichi.
 
 Besides the original explicit integration method, I added methods Runge-Kutta, Verlet and Implicit Integration.
 
-![image-20200729164822348](image-20200729164822348.png)
+![image-20200729164822348](./image-20200729164822348.png)
 
 Attention: Although Implicit Integration is unconditionally stable, the solver I implemented is just Gaussian Seidel, which can't get converge result at some extreme situation.
 
